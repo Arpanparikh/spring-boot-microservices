@@ -1,0 +1,2 @@
+This microservice fetches the ratings given by any user from ratings-data-service. It then calls movie-info-service to get movie details.
+The consolidated data from both the microservices ig given back to the client.
