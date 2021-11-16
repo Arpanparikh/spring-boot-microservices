@@ -1,0 +1,12 @@
+server:
+  port: 8888
+#spring:#  cloud:#    config:#      server:#        git:#          uri: https://github.com/Arpanparikh/spring-cloudconfig-wa-tolls
+#          username: arpan.parikh07@gmail.com
+#          password: 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
+##          search-paths:##          - 'station*'
+spring:  cloud:    config:      server:
+        git:          uri: file:\\\C:\Users\arparikh\Documents\GitHub\spring-cloudconfig-local
+          search-paths:
+          - 'station*'#  security:#    user:#      name: admin
+#      password: admin12
+logging:  level:    root: INFO
