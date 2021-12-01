@@ -11,4 +11,4 @@ All of them communicate with each other using REST.
 
 They use Eureka for service discovery.
 
-Spring cloud config server is used to fetch properties, instead of putting them in application.properties
+Spring cloud config server is used to store properties, instead of putting them in application.properties
